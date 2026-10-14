@@ -11,6 +11,16 @@ AEGIS is an enterprise-grade financial fraud detection and AML investigation pla
 Rather than relying on isolated volume thresholds, AEGIS implements a biomimetic multi-layer defense pipeline grounded in mathematical evidence fusion, neural sequence encoding, graph topology analysis, SHAP explainability, and formal database verification.
 
 ---
+## My Contribution
+
+AEGIS was developed as a collaborative group project. My contribution focused on the **Graph Correlation and Network Topology Detection** component.
+
+- Built directed transaction-graph analysis using Python, NetworkX, and Pandas.
+- Implemented topology-based detection rules for fan-in collection patterns, fan-out dispersal patterns, and potential pass-through accounts.
+- Developed bounded depth-first search logic to identify circular transaction paths.
+- Added device-based account correlation and structured graph evidence for integration with the broader risk-scoring pipeline.
+
+This component helps identify potentially suspicious relationships between accounts that may not be apparent when transactions are examined individually.
 
 ## 🏛️ System Architecture
 
